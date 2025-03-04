@@ -1,0 +1,8 @@
+{
+    "assignees": {
+      "description": "The assignees to add to the pull request",
+      "assignees": [
+        "{{arg0}}"
+      ]
+    }
+  }

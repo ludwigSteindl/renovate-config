@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+    "name": "gepardec",
+    "extends": [
+      "local>ludwigsteindl/renovate-config:addassignee(ludwigSteindl)",
+      ":prConcurrentLimitNone",
+      ":prHourlyLimitNone",
+      ":timezone(Europe/Vienna)"
+    ],
+    "recreateWhen": "always",
+    "allowPostUpgradeCommandTemplating": true,
+    "allowScripts": true
+  }
